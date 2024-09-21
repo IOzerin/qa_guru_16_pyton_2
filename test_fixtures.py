@@ -2,7 +2,7 @@ import pytest
 
 
 @pytest.fixture
-def login_page(browser_for_fixtures):
+def login_page(browser):
     print("Логин пэйдж!")
     pass
 
